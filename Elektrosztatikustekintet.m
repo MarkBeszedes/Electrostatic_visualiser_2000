@@ -1,6 +1,6 @@
 % Coded by: Beszedes Mark, J. Csanad and Z. Aron
 function elektro_vizualizer_2000
-    fig = uifigure('Name', 'Elektrosztatikus Tér Szimulátor','Position', [200 200 1000 620]);
+    fig = uifigure('Name', 'Elektrosztatikus Tererosseg Szimulator 2000','Position', [200 200 1000 620]);
     
     % toltesek: [x y q] matrix
     toltesek = zeros(0, 3);  
