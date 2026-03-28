@@ -1,4 +1,4 @@
-% Coded by: Beszedes Mark, Jobbagy Csanad and Zolnai Aron
+% Coded by: Beszedes Mark, J. Csanad and Z. Aron
 function elektro_vizualizer_2000
     fig = uifigure('Name', 'Elektrosztatikus Tér Szimulátor','Position', [200 200 1000 620]);
     
@@ -103,7 +103,6 @@ function elektro_vizualizer_2000
         val = lst.Value;
         if isempty(val), return; end
         
-        % ID kinyerése a szövegből (ID:X format)
         idx_str = regexp(val, 'ID:(\d+)', 'tokens');
         if ~isempty(idx_str)
             idx = str2double(idx_str{1}{1});
